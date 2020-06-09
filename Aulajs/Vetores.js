@@ -20,4 +20,4 @@ const media = (alunos[0].nota + alunos[1].nota + alunos[2].nota) / 3
 
 const nomesAlunos = ["Miguel", "Larissa", "Luis"]
 
-console.log(nomesAlunos)
+console.log(nomesalunos)
