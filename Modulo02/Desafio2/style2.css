@@ -7,28 +7,31 @@
     text-decoration: none;
 }
 body {
-    background:rgb(122, 5, 201);
+    background:rgb(30, 27, 35);
     font-family:'Roboto', sans-serif;
     font-size: 20px;
     text-align: center;
 }
 h1 {
     color: white;
-    font-size: 60px;
+    padding-top: 20px;
+    font-size: 40px;
     margin: 30px;
 }
 header {
-    padding: 30px;
     border-bottom: 1px solid #333;
     background: rgba(0, 0, 0, 0.557);
     max-width: 500px;
     margin: auto;
     border-radius: 10px;
+    color: #FFF;
+
 
 }
 header div {
     text-align: center;
     line-height: 50px;
+    
     
 }
 header div a {
@@ -45,11 +48,12 @@ header div a:hover {
 }
 
 #footer img {
-    height: 400px;
+    height: 300px;
     padding: 20px;
 }
 #footer h1 a {
     padding: 2px;
+    margin: 0 90px;
     font-size: 40px;
     color:  #50fa7b;
 }
