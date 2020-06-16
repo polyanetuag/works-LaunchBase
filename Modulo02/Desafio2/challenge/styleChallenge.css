@@ -1,0 +1,110 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color:rgb(11, 10, 13);
+    font-family: "Roboto", sans-serif ;
+    padding: 50px;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    font-size:20px;
+    font-weight: 30px;
+    color: white;
+    
+}
+
+/*  CARDS  */
+
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    
+    border: 2px solid;
+    border-radius: 4px;
+    margin-top: 50px;
+    background-color: rgb(37, 35, 35);
+    text-align: center;
+    padding: 20px;
+    list-style: none;
+    
+}
+.card img {
+    width: 180px;
+    height: 180px;
+    align-items: center;
+    
+}
+.card p {
+    color: #87868B;
+    margin-top: 10px;
+}
+.card button {
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.card:hover {
+    color: white;
+    transform:scale(1.1);
+    transition: 200ms;
+    border: 2px solid white;
+    
+}
+
+/*  MODAL  */
+
+.modal-overlay {
+    background-color:rgb(27, 26, 26);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+
+}
+
+.modal .close-modal {
+    color: white;
+    position: absolute;
+    right: 0;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+}
+
+
+/* ===== MODAL ACTIVE =====*/
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+iframe {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+}
